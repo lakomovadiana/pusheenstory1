@@ -1,14 +1,22 @@
 
 start:
   - play morningBGM:
-  - show school_morning: WITH FADE
-  - show deuzi: happy AT CENTER WITH FADE
-  - deuzi says: Welcome to our Tutorial Game!
-  - deuzi says: My name is Deuzilene and I'll be your guide.
-  - show deuzi: normal
-  - deuzi says: So you want to make a Visual Novel.
-  - deuzi says: With RenJS you can easily make games just like this one.
-  - deuzi says: RenJS is inspired by Ren'Py and based on PhaserJS.
+  - show living_room: WITH FADE
+  - show pusheen: sleeping AT 450,400 WITH FADE
+  - pusheen says: z-z-z-z-z...
+  - show pusheen: normal AT 450,500 
+  - pusheen says: Hi there, why'd you wake me up ?
+  - pusheen says: I expect you have some donuts for me? 
+  - choice:
+    - Yes I do:
+      - show donut_heaven: WITH FADE
+      - show pusheen: eating_donut AT 450,400 WITH FADE
+    - No I don't:
+      - show pusheen: angry AT 450,400
+      - pusheen says: Well then go get some!!!
+      - show pusheen: normal AT 450,500
+      - pusheen says: Don't worry, I'll wait for you.
+  - pusheen says: RenJS is inspired by Ren'Py and based on PhaserJS.
   - deuzi says: If you are familiar with any of those you have an advantage.
   - deuzi says: And if not...
   - show deuzi: happy

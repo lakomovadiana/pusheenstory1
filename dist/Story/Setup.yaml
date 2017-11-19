@@ -1,5 +1,7 @@
 setup:
   backgrounds:
+    living_room: assets/backgrounds/living_room.jpg
+    donut_heaven: assets/backgrounds/donut_heaven.jpg
     bus_station: assets/backgrounds/bus_station_afternoon.jpg
     room: assets/backgrounds/room_day.jpg
     room_night: assets/backgrounds/room_night.jpg
@@ -10,6 +12,18 @@ setup:
     street_afternoon: assets/backgrounds/school_front_afternoon.jpg
     store: assets/backgrounds/store.jpg
   characters:
+    pusheen:
+      displayName: Pusheen
+      speechColour: "#ca90cf"
+      looks:
+        normal: assets/characters/PusheenNormal.png
+        sleeping: assets/characters/PusheenSleeping.png
+        eating_donut: assets/characters/PusheenHappy.png
+        happy: assets/characters/PusheenHappy.png
+        angry: assets/characters/PusheenAngry.png
+        normalC: assets/characters/Char3Normal.png
+        happyC: assets/characters/Char3Happy.png
+        angryC: assets/characters/Char3Angry.png
     deuzi:
       displayName: Deuzilene
       speechColour: "#ca90cf"
